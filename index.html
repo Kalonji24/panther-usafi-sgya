@@ -410,7 +410,7 @@
       <p class="price-desc">Idéal pour les ménages et particuliers</p>
       <ul class="price-features">
         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>1 collectes par semaine</li>
-        <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>1 bac fourni</li>
+        <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>1 sac fourni</li>
         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Tri sélectif inclus</li>
         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Suivi WhatsApp</li>
       </ul>
@@ -420,7 +420,7 @@
     <div class="price-card featured reveal">
       <div class="price-tier">Institutionnel</div>
       <div class="price-amount">SUR <span>devis</span></div>
-      <p class="price-desc">Écoles, hôpitaux, entreprises, immeubles</p>
+      <p class="price-desc">Écoles, entreprises, immeubles</p>
       <ul class="price-features">
         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Plan personnalisé</li>
         <li><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>Bacs illimités</li>
@@ -441,7 +441,7 @@
   <div class="about-content">
     <p class="section-tag">Notre Mission</p>
     <h2 class="section-title">Qui Sommes-Nous?</h2>
-    <p>Panther Usafi, label de <strong style="color:var(--lime);">Panther Business Group SARL</strong>,Panther Usafi, label de Panther Business Group SARL, à travers son label et service spécialisé Panther Usafi, a l’honneur de vous proposer ses services de ramassage, de transport et de gestion des déchets solides, sur une base journalière ou hebdomadaire, selon vos besoins.
+    <p><strong style="color:var(--lime);">Panther Business Group SARL</strong>, à travers son label et service spécialisé Panther Usafi, a l’honneur de vous proposer ses services de ramassage, de transport et de gestion des déchets solides, sur une base journalière ou hebdomadaire, selon vos besoins.
     <div class="about-values">
       <span class="value-pill">Durabilité</span>
       <span class="value-pill">Fiabilité</span>
@@ -924,44 +924,6 @@
     window.open('https://wa.me/243837601499?text='+text,'_blank');
     document.getElementById('form-success')&&(document.getElementById('contactForm').style.display='none',document.getElementById('form-success').style.display='block');
   }
-</script>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
 </script>
 </body>
 </html>
